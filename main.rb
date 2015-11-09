@@ -1,28 +1,5 @@
 require_relative "user"
-
-class 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-end
+print "Enter PIN now: "
+pin = $stdin.gets.chomp
+users = User.new
+puts users.find_user(pin)
